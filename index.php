@@ -1,0 +1,14 @@
+<?php
+/* CONTROLADORES */
+require_once "controladores/rutas.controlador.php";
+require_once "controladores/cursos.controlador.php";
+require_once "controladores/clientes.controlador.php";
+
+/* MODELOS */
+require_once "modelos/clientes.modelo.php";
+require_once "modelos/cursos.modelo.php";
+
+$rutas = new RutaController();
+$rutas->inicio();
+
+?>
