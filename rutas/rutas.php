@@ -39,8 +39,8 @@
 
                 if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == "POST"){
 
-                    $datos = array("nombre" => $_POST["nombre"],
-                    "apellido" => $_POST["apellido"],
+                    $datos = array("primer_nombre" => $_POST["primer_nombre"],
+                    "primer_apellido" => $_POST["primer_apellido"],
                     "email" => $_POST["email"]);
 
                     //echo "<pre>"; print_r($datos); echo "<pre>";
