@@ -49,9 +49,9 @@
             /* VALIDAR EMAIL REPETIDO */
 
             $clientes = ModeloClientes::index("clientes");
-            /* 
+            
             foreach ($clientes as $key => $value) {
-                if ($value["email"] == $datos["email"]) {
+                if ($value["email"] == $datos->email) {
                     
                     $json = array(
                         "status"=>404,
@@ -63,7 +63,7 @@
 
                 }
             }
-            */
+            
 
             /* GENERAR CREDENCIALES DEL CLIENTE */
 
